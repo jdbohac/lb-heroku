@@ -68,7 +68,7 @@ MIDDLEWARE = [
 # CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000', 'http://lanbuddy-api.herokuapp.com']
-ACCESS_CONTROL_ALLOW_ORIGIN = ['http://localhost:3000/', 'http://lanbuddy-api.herokuapp.com/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://lanbuddy-api.herokuapp.com']
 ROOT_URLCONF = 'project_4_lanbuddy_api.urls'
 
 TEMPLATES = [
