@@ -29,7 +29,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'lanbuddy-api.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', 'lanbuddy-api.herokuapp.com']
 
 
 # Application definition
@@ -67,7 +67,7 @@ MIDDLEWARE = [
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ORIGIN_WHITELIST = ['http://localhost:3000', 'lanbuddy-api.herokuapp.com/']
+CORS_ORIGIN_WHITELIST = ['http://localhost:3000', 'http://lanbuddy-api.herokuapp.com']
 
 ROOT_URLCONF = 'project_4_lanbuddy_api.urls'
 
