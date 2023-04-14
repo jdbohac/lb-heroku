@@ -1,1 +1,1 @@
-web: gunicorn lanbuddy_api.wsgi
+web: gunicorn project_4_lanbuddy_api.wsgi
