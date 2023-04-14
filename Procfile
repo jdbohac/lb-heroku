@@ -1,1 +1,1 @@
-web: gunicorn django_rest_api.wsgi
+web: gunicorn lanbuddy_api.wsgi
